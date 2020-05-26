@@ -1,68 +1,28 @@
 //JulesIMF template
 
 #include <cmath>
-#include <ccomplex>
-#include <functional>
-#include <fstream>
-#include <numeric>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <string>
 #include <set>
-#include <stack>
 #include <map>
-#include <list>
-#include <time.h>
 #include <math.h>
-#include <random>
-#include <deque>
-#include <queue>
-#include <cassert>
-#include <unordered_map>
-#include <unordered_set>
-#include <iomanip>
-#include <bitset>
-#include <sstream>
-#include <chrono>
 #include <cstring>
 #include <Windows.h>
 
 #define vsegda_prav72 ios_base::sync_with_stdio(0); cin.tie(0);
-#define fort() int ___t; cin >> ___t; for(int sdcsdsd = 0; sdcsdsd < ___t; sdcsdsd++)
 #define forn(__i,__n) for(int __i = 0; __i < __n; __i++)
 #define mp make_pair
 #define pb push_back
-#define bgn begin()
-#define ed end()
-#define fst first
-#define snd second
-#define itall(__v) __v.begin(), __v.end()
 #define outn(___s) cout << ___s << "\n"
 #define outs(___s) cout << ___s << " "
 #define acnt cout << "\t"
-#define nl cout << "\n"
-#define adel(___a) delete[] ___a
 
 using namespace std;
 typedef long long ll;
-typedef long double ld;
-typedef pair<ll, ll> pll;
-typedef pair<int, int> pii;
 typedef vector<int> vi;
 typedef vector<ll> vll;
-typedef vector<pii> vpii;
-typedef vector<pll> vpll;
-
-
-const ll INFLL = 1e18;
-const int MAXN = 3e5;
-const ll INF = 1e9;
-const ll kek = 998244353;
-const ll mod7 = 1e9 + 7;
-const ll mod9 = 1e9 + 9;
-const ld PI = 3.14159265358;
-//------------------SOLUTION STARTS--------------------
 
 inline long long powll(int n) {
 	ll ret = 1;
@@ -80,8 +40,7 @@ jj:
 	auto it = m.begin();
 	next_permutation(v.begin(), v.end());
 	;
-	if (v == vi({ 3,8,0,1,5,2,9,4,6,7 }))
-		cout << "IM HERE\n\n";
+	
 	for (int i = 0; i < m.size(); i++) {
 		//if (v[i] == (it++)->second) continue;
 		//changed = true;
